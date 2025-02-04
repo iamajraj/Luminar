@@ -1,0 +1,22 @@
+.gradient-text {
+    background: linear-gradient(45deg, #383838 0%, #2dd4bf 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-scale:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15);
+}
+.custom-scrollbar::-webkit-scrollbar{
+    height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb{
+    background-color: #2dd4be3f;
+}
+.custom-scrollbar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
